@@ -1,0 +1,56 @@
+# Local agent installation and discovery entries (never vendor junctions).
+/.agents/
+/.claude/
+/.opencode/
+/.flownote/
+
+# Vault runtime data if a test Vault is placed at the repository root.
+/00-Inbox/
+/01-捕获层/
+/02-培养层/
+/03-连接层/
+/03-表现层/
+/04-创造层/
+/04-项目/
+/05-归档/
+/05-项目笔记库/
+/06-图书馆/
+/Meta/
+/**/session-pointers.md
+/**/STATUS.md
+/**/sessions/
+/**/session-logs/
+
+# Local secrets, diagnostics and generated caches.
+.env
+.env.*
+*.env
+!.env.example
+/secrets/
+/credentials/
+*credentials*.json
+*secret*.json
+*.token
+*.pem
+*.key
+*.p12
+*.log
+*.tmp
+*.bak
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+/coverage/
+/dist/
+/build/
+
+# Local task evidence, editor state and operating-system files.
+/.superpowers/
+.obsidian/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
