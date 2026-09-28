@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">FLOWnote：从需求到理解与记录</title>
+  <desc id="desc">说出需求后，由 flownote 分流。解释可以留在对话中；写入遵循各技能授权规则。</desc>
+  <rect width="1200" height="600" rx="24" fill="#F4F1E9"/>
+  <g font-family="'Segoe UI','Microsoft YaHei','PingFang SC',sans-serif" fill="#203B36">
+    <text x="64" y="82" font-size="42" font-weight="600">FLOWnote / 理解与沉淀</text>
+    <g id="entry">
+      <rect x="64" y="126" width="1072" height="128" rx="16" fill="#203B36"/>
+      <text x="600" y="181" text-anchor="middle" font-size="48" fill="#FFFFFF">说出需求</text>
+      <text x="600" y="230" text-anchor="middle" font-size="40" fill="#D5E8DD">flownote 按意图分流</text>
+    </g>
+    <g id="branches" fill="none" stroke="#607E70" stroke-width="4">
+      <path d="M600 254 V298 H322 V340 M600 298 H878 V340"/>
+    </g>
+    <g id="conversation">
+      <rect x="64" y="340" width="516" height="148" rx="16" fill="#DFE9DF"/>
+      <text x="322" y="401" text-anchor="middle" font-size="48">留在对话</text>
+      <text x="322" y="454" text-anchor="middle" font-size="40">解释 · 讨论 · 草稿</text>
+    </g>
+    <g id="persistence">
+      <rect x="620" y="340" width="516" height="148" rx="16" fill="#E9DFC9"/>
+      <text x="878" y="401" text-anchor="middle" font-size="48">按授权写入</text>
+      <text x="878" y="454" text-anchor="middle" font-size="40">记录 · 笔记 · 复盘</text>
+    </g>
+    <text x="600" y="556" text-anchor="middle" font-size="38">不必每次都制卡，保存遵循各技能规则</text>
+  </g>
+</svg>
